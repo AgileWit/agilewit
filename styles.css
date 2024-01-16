@@ -1,0 +1,72 @@
+                body {
+                   background-color:beige
+                }
+                h1 {
+                   text-align; center;color:#1A237E;font-family:verdana;
+                }
+                h2 {
+                  text-align; center;
+                  color:#1A237E;
+                  font-family:verdana;
+                  font-size: 100%;
+                  margin-bottom: 1px;
+                  margin-top: 1px;
+                }
+                p {
+                 margin-top: 3px;
+                 margin-bottom: 3px;
+                 text-align;center;
+                 color:#1A237E;
+                 font-size:160%;
+                 font-family:verdana;
+                 margin-left: 13%;
+                 margin-right:12%; 
+                 border-style: solid; 
+                 border-radius: 15px; 
+                 padding: 1%;
+                 border-color: #FF9800;
+               }
+                div {
+                   text-align: left;
+                }
+                .tab {
+                    overflow: hidden;
+                    text-align: center;
+                }
+                .centerDiv {
+                  text-align: center;
+                }
+                .tab button {
+	              border-radius: 15px;
+                  color:#1A237E;
+                  background-color:beige;
+                  border: none;
+                  outline: none;
+                  cursor: pointer;
+                  padding: 1%;
+                  transition: 0.3s;
+                  font-size: 150%;
+	             font-family:verdana;
+                }
+                .tab button:hover {
+                  background-color: #FFF;
+                }
+                .tab button.active {
+                  color:#FFF;
+                  background-color: #FF9800;;
+	              font-weight: bold;
+                }
+                .tabcontent {
+                   display: none;
+                }
+				.store_image {
+					max-width:20vw;
+				}
+				
+				@media  (max-width:1100px) {
+  				.store_image {
+					max-width:40vw;
+				}
+             }
+
+
