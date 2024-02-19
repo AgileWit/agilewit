@@ -1,0 +1,55 @@
+
+<html>
+  <head>
+    <title>Agile Wit - The Humor Coach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Agile Wit helps to develop a witty sense of humor.
+    A well-placed quality joke can win us a date, a new friend, a job interview, or a business contract.">
+    <meta name="og:title" property="og:title" content="Agile Wit - The Humor Coach">
+    <meta name="robots" content="index, follow">
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+      function openTab(evt, tabName, starting) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i  < tabcontent.length; i++) {
+           tabcontent[i].style.display="none" ;
+       }
+        tablinks=document.getElementsByClassName("tablinks" );
+        for  (i=0; i< tablinks.length; i++) {
+           tablinks[i].className=tablinks[i].className.replace(" active" ,"" );
+        }
+        document.getElementById(tabName).style.display="block" ;
+        evt.currentTarget.className +=" active" ;
+        if (starting){
+           document.getElementById("aboutButton").className +=" active" ;
+        }
+      }
+    </script>
+  </head>
+  <body onload="openTab(event, 'about',true)">
+    <div class="centerDiv">
+      <img style="border-radius: 5%; width:50vw;" alt="Agile Wit" src="img/logo.jpg" 
+      alt="smart funny witty people"/>
+    </div>
+
+    <div class="centerDiv">
+      <h1>Agile Wit - the Humor Coach</h1>
+      <p>Thank you for logging-in.<br />
+      Please return to Agile Wit app using the Back/Done buttons.
+      </p>
+    </div>
+
+    <div class="centerDiv">
+      <br />
+       <font color="#1A237E" size=5 face="verdana">
+        2024 <b>Agile Wit</b>
+        by
+        <b>Puffing Devil Industries Inc.</b>
+       <br/>Contact:  <i>agilewit1@gmail.com</i>
+        </font>
+    </div>
+  </body>
+</html>
+
+
